@@ -26,10 +26,48 @@ body {
   width: 100%;
 }
 
-.text {
+section {
   background-color: #e2e2e2;
 }
 
 div h2 {
   font-family: "Denk One", sans-serif;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .text {
+    color: #fff;
+    position: absolute;
+    bottom: 1rem;
+    right: .5rem;
+    width: 60%;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+  }
+
+  section {
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
 }
